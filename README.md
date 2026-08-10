@@ -15,3 +15,12 @@ This practical successfully implemented and analyzed two fundamental searching a
 
 Conclusion :
 The implementation of Sequential Search and Binary Search was completed successfully, and both algorithms accurately searched for the required element. The practical showed that Sequential Search is simple and suitable for small or unsorted datasets, while Binary Search is more efficient for sorted datasets because it reduces the search space at each step. The comparison of their execution time and time complexity highlighted the advantages and limitations of each algorithm. Overall, this experiment improved the understanding of searching techniques and emphasized the importance of choosing the appropriate algorithm to achieve efficient and faster data retrieval.
+
+
+Practical 3:
+
+Summary:
+Max Heap Sort is an efficient comparison-based sorting algorithm that uses the Max Heap data structure to arrange elements in ascending order. The algorithm first converts the given array into a Max Heap, where the largest element is always present at the root. The root element is then exchanged with the last element, and the remaining heap is rearranged using the heapify operation. This process is repeated until all elements are sorted. The implemented program accepts input from the user, performs Max Heap Sort without using built-in sorting functions, displays the sorted array, and measures the execution time.
+
+Conclusion:
+The implementation of Max Heap Sort demonstrates the effective use of the heap data structure for sorting elements. The algorithm has a best-case, average-case, and worst-case time complexity of O(n log n), making its performance consistent even for large input sizes. The algorithm can also be implemented in-place, which reduces the need for additional memory. By implementing Max Heap Sort manually and measuring its execution time, we can understand both the working principle of heap-based sorting and its computational efficiency. Overall, Max Heap Sort is a reliable and efficient sorting technique for applications where consistent performance is important.
