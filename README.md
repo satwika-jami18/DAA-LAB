@@ -24,3 +24,17 @@ Max Heap Sort is an efficient comparison-based sorting algorithm that uses the M
 
 Conclusion:
 The implementation of Max Heap Sort demonstrates the effective use of the heap data structure for sorting elements. The algorithm has a best-case, average-case, and worst-case time complexity of O(n log n), making its performance consistent even for large input sizes. The algorithm can also be implemented in-place, which reduces the need for additional memory. By implementing Max Heap Sort manually and measuring its execution time, we can understand both the working principle of heap-based sorting and its computational efficiency. Overall, Max Heap Sort is a reliable and efficient sorting technique for applications where consistent performance is important.
+
+
+Practical 4 
+
+Summary :
+In this practical, the factorial of a given number was implemented using two different approaches: iterative and recursive methods. The program accepts input from the user and calculates the factorial using both techniques. The execution time of each method is measured using Python's time functions to compare their practical performance. The time complexity of both methods is O(n). However, the iterative method requires O(1) space, while the recursive method requires O(n) space because of the recursive function call stack. This practical helps in understanding how different programming approaches can solve the same problem and how their efficiency can be analyzed.
+
+Conclusion :
+The factorial program was successfully implemented using both iterative and recursive techniques. Both approaches provide the correct factorial result, but their memory requirements are different. The iterative approach is more memory-efficient because it does not create multiple function calls, whereas the recursive approach is simpler and demonstrates the concept of recursion clearly. By measuring execution time and analyzing time and space complexity, we gained a better understanding of algorithm efficiency and performance analysis.
+
+
+Practical 7 
+
+Summary
