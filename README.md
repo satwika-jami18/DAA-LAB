@@ -29,7 +29,8 @@ The implementation of Max Heap Sort demonstrates the effective use of the heap d
 Practical 4 
 
 Summary :
-In this practical, the factorial of a given number was implemented using two different approaches: iterative and recursive methods. The program accepts input from the user and calculates the factorial using both techniques. The execution time of each method is measured using Python's time functions to compare their practical performance. The time complexity of both methods is O(n). However, the iterative method requires O(1) space, while the recursive method requires O(n) space because of the recursive function call stack. This practical helps in understanding how different programming approaches can solve the same problem and how their efficiency can be analyzed.
+In this practical, the factorial of a given number was implemented using two different approaches: iterative and recursive methods. The program accepts input from the user and calculates the factorial using both techniques. The execution time of each method is measured using Python's time functions to compare their practical performance. The time complexity of both methods is O(n). However, the iterative method requires O(1) space, while the recursive method requires O(n) space because of the recursive function call stack. This practical helps in understanding how different programming approaches can solve the same problem and how their :
+efficiency can be analyzed.
 
 Conclusion :
 The factorial program was successfully implemented using both iterative and recursive techniques. Both approaches provide the correct factorial result, but their memory requirements are different. The iterative approach is more memory-efficient because it does not create multiple function calls, whereas the recursive approach is simpler and demonstrates the concept of recursion clearly. By measuring execution time and analyzing time and space complexity, we gained a better understanding of algorithm efficiency and performance analysis.
@@ -37,4 +38,8 @@ The factorial program was successfully implemented using both iterative and recu
 
 Practical 7 
 
-Summary
+Summary :
+In this practical, the Making Change Problem was implemented using the Dynamic Programming approach. The program accepts the coin denominations and target amount as input from the user and determines the minimum number of coins required to make the given amount. A dynamic programming table is used to store previously calculated results and avoid repeated computations. The execution time of the algorithm is also measured to analyze its practical performance. The time complexity of the solution is O(n × A) and the space complexity is O(A), where n is the number of coin denominations and A is the target amount.
+
+Conclusion :
+The Making Change Problem was successfully solved using Dynamic Programming. The approach efficiently finds the minimum number of coins by breaking the problem into smaller subproblems and storing their results for future use. This avoids unnecessary repeated calculations and improves efficiency compared with a simple recursive approach. The execution time, time complexity, and space complexity were analyzed to understand the performance of the algorithm. Thus, this practical helped in understanding the concept of Dynamic Programming and its application in solving optimization problems efficiently.
