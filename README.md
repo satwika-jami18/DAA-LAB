@@ -43,3 +43,11 @@ In this practical, the Making Change Problem was implemented using the Dynamic P
 
 Conclusion :
 The Making Change Problem was successfully solved using Dynamic Programming. The approach efficiently finds the minimum number of coins by breaking the problem into smaller subproblems and storing their results for future use. This avoids unnecessary repeated calculations and improves efficiency compared with a simple recursive approach. The execution time, time complexity, and space complexity were analyzed to understand the performance of the algorithm. Thus, this practical helped in understanding the concept of Dynamic Programming and its application in solving optimization problems efficiently.
+
+Practical 6
+
+Summary :
+The Chain Matrix Multiplication problem was implemented using the Dynamic Programming technique. The program accepts the number and dimensions of matrices as user input and determines the optimal order of matrix multiplication. Instead of performing the actual matrix multiplication, it calculates the minimum number of scalar multiplications required for different possible orders and selects the most efficient one. The program also displays the optimal parenthesization and measures the execution time. The algorithm has a time complexity of O(n³) and a space complexity of O(n²).
+
+Conclusion :
+Thus, the Chain Matrix Multiplication problem was successfully solved using Dynamic Programming. By storing previously calculated results and reusing them, the algorithm avoids repeated calculations and efficiently finds the minimum multiplication cost. The experiment demonstrates how Dynamic Programming can significantly improve the efficiency of problems having overlapping subproblems and optimal substructure. The execution time also helps in analyzing the practical performance of the algorithm.
