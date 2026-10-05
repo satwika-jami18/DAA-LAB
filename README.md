@@ -51,3 +51,11 @@ The Chain Matrix Multiplication problem was implemented using the Dynamic Progra
 
 Conclusion :
 Thus, the Chain Matrix Multiplication problem was successfully solved using Dynamic Programming. By storing previously calculated results and reusing them, the algorithm avoids repeated calculations and efficiently finds the minimum multiplication cost. The experiment demonstrates how Dynamic Programming can significantly improve the efficiency of problems having overlapping subproblems and optimal substructure. The execution time also helps in analyzing the practical performance of the algorithm.
+
+Practical 10:
+
+Summary :
+Kruskal’s Algorithm is a greedy approach used to find the Minimum Spanning Tree (MST) of a weighted graph. It starts by sorting all the edges from the smallest weight to the largest. Then, it picks the edges one by one, making sure that no selected edge creates a cycle. The Union-Find technique is used to check for cycles efficiently. This process continues until all vertices are connected with the minimum possible total cost.
+
+Conclusion :
+In this implementation, Kruskal’s Algorithm successfully finds the Minimum Spanning Tree by selecting the most suitable edges while avoiding unnecessary cycles. It is simple, efficient, and useful for problems where we need to connect different points with minimum total cost, such as network design, roads, and communication systems. The algorithm has a time complexity of O(E log E), mainly because the edges need to be sorted.
